@@ -170,6 +170,12 @@ footer p a {
   border-radius: 50px 0 0 0;
 }
 
+@media (max-width: 767px) {
+  .blog article > div:first-child .image img {
+    border-radius: 0;
+  }
+}
+
 .blog article > div:first-child .image p {
   background: #8df48b;
   border: 1px solid #272b34;
@@ -191,6 +197,12 @@ footer p a {
   border-radius: 0 0 50px 0;
   margin-top: -50px;
   position: relative;
+}
+
+@media (max-width: 767px) {
+  .blog article > div:last-child {
+    margin-top: 20px;
+  }
 }
 
 .blog article > div:last-child div {
